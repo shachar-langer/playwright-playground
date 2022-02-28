@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "postinstall": "find / -maxdepth 2 -type l ! -path '*/.bin/*' -exec rm {} +"
+    "postinstall": "find ./ -maxdepth 2 -type l ! -path '*/.bin/*' -exec rm {} +"
   },
   "keywords": [],
   "author": "",
